@@ -1,0 +1,28 @@
+{
+    "name": "nebulae",
+    "displayName": "Nebulae theme",
+    "description": "Nebulae theme",
+    "publisher": "Ureakim",
+    "license": "MIT",
+    "version": "0.0.1",
+    "icon": "resources/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ureakim/nebulae-theme-vscode"
+    },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nebulae",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nebulae-color-theme.json"
+            }
+        ]
+    }
+}
